@@ -92,7 +92,7 @@ def total_game_calculation(data: str, max_cubes: Optional[Dict[str, int]] = None
         else:
             # Return the product of the 
             round_total = per_game_challenge_two(games_info_string)
-        # Sppending to the total count
+        # Adding to the total count
         total_count += round_total
     # Returning the total count
     return total_count
